@@ -1,4 +1,4 @@
-package com.aainur.externalpooling.builders
+package com.aainur.externalpooling.utils
 
 import com.aainur.externalpooling.models.Exchange
 import org.springframework.stereotype.Component
