@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service
 class ResultSender {
 
     fun sendResult(currency: String, exchange: String, value: String) {
-        val url = "localhost:8080"
+        val url = "http://localhost:8080"
         val responce = khttp.post(
                 url = url,
                 params = mapOf(

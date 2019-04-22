@@ -11,6 +11,6 @@ class ExternalRequestBuilder {
     )
 
     fun buildUrl(service: String): String {
-        return String.format("%s%s", Exchange.valueOf(service).url, marketUrls[Exchange.BITTREX])
+        return String.format("%s%s", Exchange.valueOf(service.toUpperCase()).url, marketUrls[Exchange.BITTREX])
     }
 }
